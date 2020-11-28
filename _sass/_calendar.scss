@@ -6,6 +6,24 @@
   background-color: #5c47ff;
   color: #ffffff;
 }
+  body {
+	background: rgb(148,171,238);
+background: linear-gradient(60deg, rgba(148,171,238,1) 7%, rgba(98,132,184,1) 21%, rgba(46,211,201,1) 38%, rgba(146,224,101,1) 56%, rgba(232,199,92,1) 74%, rgba(224,238,222,1) 93%);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 .fc-left {
     display: none;
