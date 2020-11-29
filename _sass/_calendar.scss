@@ -44,7 +44,8 @@
 #event-button {
     width: 100%;
     color: white;
-    background-color: var(--accent);
+    background: rgb(243,207,74);
+    background: radial-gradient(circle, rgba(243,207,74,1) 50%, rgba(228,188,28,1) 81%);
     display: inline-block;
     box-sizing: border-box;
     border: none;
