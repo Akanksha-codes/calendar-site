@@ -134,17 +134,18 @@ background: linear-gradient(40deg, rgba(3,6,104,1) 14%, rgba(26,23,164,1) 41%, r
 }
 
 
+
 .wrapper {
-  background: -webkit-linear-gradient(top left, rgba(80,163,162,0.7794468129048494) 0%, rgba(83,227,166,0.846673703661152) 100%);
- background: rgb(80,163,162);
-background: linear-gradient(top bottom, rgba(80,163,162,0.7794468129048494) 0%, rgba(83,227,166,0.846673703661152) 100%);
+  background: -webkit-linear-gradient(top left, top left, #50a3a2 0%, #53e3a6 100%);
+background: rgb(104,120,119);
+background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(167,183,177,0.27244401178440125) 89%);
   position: absolute;
   background-position: center;
   background-repeat: repeat; 
-  background-size: cover;
+  background-size: 100%;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: full;
  
 }
 
@@ -163,7 +164,7 @@ background: linear-gradient(top bottom, rgba(80,163,162,0.7794468129048494) 0%, 
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
+  bottom: -110px;
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
@@ -172,6 +173,10 @@ background: linear-gradient(top bottom, rgba(80,163,162,0.7794468129048494) 0%, 
 .bg-bubbles li:nth-child(1) {
   left: 10%;
 }
+.bg-bubbles li:nth-child(1) {
+  left: 15%;
+}
+
 .bg-bubbles li:nth-child(2) {
   left: 20%;
   width: 80px;
@@ -237,6 +242,17 @@ background: linear-gradient(top bottom, rgba(80,163,162,0.7794468129048494) 0%, 
   height: 120px;
   -webkit-animation-delay: 11s;
           animation-delay: 11s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.bg-bubbles li:nth-child(11) {
+  left: 60%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+  -webkit-animation-delay: 30s;
+          animation-delay: 30s;
 }
 @-webkit-keyframes square {
   0% {
@@ -254,7 +270,7 @@ background: linear-gradient(top bottom, rgba(80,163,162,0.7794468129048494) 0%, 
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-700px) rotate(600deg);
-            transform: translateY(-700px) rotate(600deg);
+    -webkit-transform: translateY(-900px) rotate(600deg);
+            transform: translateY(-900px) rotate(600deg);
   }
 }
