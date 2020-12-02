@@ -160,7 +160,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background-color: #40a9d1;
+  background-color: rgba(77, 145, 209, 0.233);
   bottom: -0003px;
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
@@ -194,7 +194,7 @@
   height: 60px;
   -webkit-animation-duration: 22s;
           animation-duration: 22s;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(77, 145, 209, 0.233);
 }
 .bg-bubbles li:nth-child(5) {
   left: 90%;
@@ -205,7 +205,7 @@
   height: 100px;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  background-color: #40a9d1;
+  background-color: rgba(77, 145, 209, 0.233);
 }
 .bg-bubbles li:nth-child(7) {
   left: 32%;
@@ -231,7 +231,7 @@
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: #40a9d1;
+  background-color: rgba(77, 145, 209, 0.233);
 }
 .bg-bubbles li:nth-child(10) {
   left: 80%;
