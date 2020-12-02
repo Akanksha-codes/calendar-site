@@ -1,18 +1,16 @@
 .nav-bar {
     width: 100%;
     display: inline-block;
-   background: rgb(3,6,104);
-background: linear-gradient(40deg, rgba(3,6,104,1) 14%, rgba(26,23,164,1) 41%, rgba(47,149,202,1) 73%, rgba(222,243,240,1) 99%);   box-shadow: 0 0 .2rem rgba(0,0,0,.1),0 .2rem .4rem rgba(0,0,0,.2);
+    background: rgb(4,78,146);
+    background: linear-gradient(45deg, rgba(4,78,146,1) 38%, rgba(230,172,36,1) 97%); 
     font-family: "Poppins", serif;
     font-weight: 700 !important;
     margin-bottom: 20px;
 }
-
 .nav-content {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 .nav-content .logo-touch-target {
     display: inline-flex;
     height: 100%;
@@ -137,8 +135,7 @@ background: linear-gradient(40deg, rgba(3,6,104,1) 14%, rgba(26,23,164,1) 41%, r
 
 .wrapper {
   background: -webkit-linear-gradient(top left, top left, #50a3a2 0%, #53e3a6 100%);
-background: rgb(104,120,119);
-background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(167,183,177,0.27244401178440125) 89%);
+  background: white;
   position: absolute;
   background-position: center;
   background-repeat: repeat; 
@@ -163,18 +160,18 @@ background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(
   display: block;
   width: 40px;
   height: 40px;
-  background-color: rgba(255, 255, 255, 0.15);
-  bottom: -0px;
+  background-color: #40a9d1;
+  bottom: -0003px;
   -webkit-animation: square 25s infinite;
   animation: square 25s infinite;
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
 .bg-bubbles li:nth-child(1) {
-  left: 10%;
+  left: 1%;
 }
 .bg-bubbles li:nth-child(1) {
-  left: 5%;
+  left: 10%;
 }
 
 .bg-bubbles li:nth-child(2) {
@@ -187,7 +184,7 @@ background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(
           animation-duration: 17s;
 }
 .bg-bubbles li:nth-child(3) {
-  left: 25%;
+  left: 35%;
   -webkit-animation-delay: 4s;
           animation-delay: 4s;
 }
@@ -200,15 +197,15 @@ background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(
   background-color: rgba(255, 255, 255, 0.25);
 }
 .bg-bubbles li:nth-child(5) {
-  left: 70%;
+  left: 90%;
 }
 .bg-bubbles li:nth-child(6) {
-  left: 80%;
+  left: 60%;
   width: 100px;
   height: 100px;
   -webkit-animation-delay: 3s;
           animation-delay: 3s;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #40a9d1;
 }
 .bg-bubbles li:nth-child(7) {
   left: 32%;
@@ -227,17 +224,17 @@ background: linear-gradient(0deg, rgba(104,120,119,0.827345972568715) 28%, rgba(
           animation-duration: 40s;
 }
 .bg-bubbles li:nth-child(9) {
-  left: 25%;
+  left: 70%;
   width: 20px;
   height: 20px;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
   -webkit-animation-duration: 40s;
           animation-duration: 40s;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #40a9d1;
 }
 .bg-bubbles li:nth-child(10) {
-  left: 70%;
+  left: 80%;
   width: 120px;
   height: 120px;
   -webkit-animation-delay: 11s;
