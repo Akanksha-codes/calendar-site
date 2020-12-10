@@ -244,3 +244,8 @@ function onLoadFailed(error) {
       <p>HTTP Error ${error.xhr.status}</p>
     </div>`
 }
+
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
